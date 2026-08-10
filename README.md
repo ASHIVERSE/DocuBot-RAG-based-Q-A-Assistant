@@ -24,17 +24,29 @@ based on the intent of the question.
 🌐 Deployed using Streamlit Cloud
 
 🛠️ Tech Stack
+
 Python 3.10
+
 Streamlit – Web interface
+
 LangChain – RAG pipeline
+
 FAISS – Vector similarity search
+
 Sentence-Transformers – Local embeddings
+
 facebook/bart-large-cnn – Text summarization model
+
 HuggingFace Transformers
+
 🧠 How It Works (RAG Flow)
+
 PDF is uploaded by the user
+
 Text is extracted and split into chunks
+
 Chunks are converted into vector embeddings
+
 FAISS retrieves the most relevant chunks
 The LLM summarizes content based on the question
 Output is formatted cleanly for the user
