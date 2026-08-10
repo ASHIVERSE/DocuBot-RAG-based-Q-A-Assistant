@@ -8,13 +8,21 @@ Short explanatory paragraphs
 based on the intent of the question.
 
 🚀 Features
+
 📄 Upload PDF documents
+
 🔍 Semantic search using vector embeddings (FAISS)
+
 🧠 Retrieval-Augmented Generation (RAG)
+
 ✍️ Clean, summarized answers (no prompt leakage)
+
 🧾 Bullet-point or paragraph answers based on question type
+
 ❌ Graceful fallback if the answer is not found
+
 🌐 Deployed using Streamlit Cloud
+
 🛠️ Tech Stack
 Python 3.10
 Streamlit – Web interface
